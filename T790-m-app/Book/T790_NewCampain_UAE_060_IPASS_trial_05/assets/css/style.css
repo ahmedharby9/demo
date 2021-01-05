@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    -webkit-touch-callout: none;
+}
+
+html,
+body,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+table,
+tr,
+td,
+th,
+em,
+strong,
+pre,
+code,
+form,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+#Main_Container {
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#mask {
+    position: absolute;
+    left: 0px;
+    top: 326px;
+    width: 1024px;
+    height: 266px;
+    overflow: hidden;
+}
+
+#b1_60 {
+    position: absolute;
+    left: 285px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b2_60 {
+    position: absolute;
+    left: 346px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b3_60 {
+    position: absolute;
+    left: 466px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b4_60 {
+    position: absolute;
+    left: 528px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b5_60 {
+    position: absolute;
+    left: 666px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b6_60 {
+    position: absolute;
+    left: 728px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#t1_60 {
+    position: absolute;
+    left: 295px;
+    top: 401px;
+    opacity: 0;
+}
+
+#t2_60 {
+    position: absolute;
+    left: 349px;
+    top: 441px;
+    opacity: 0;
+}
+
+#t3_60 {
+    position: absolute;
+    left: 470px;
+    top: 295px;
+    opacity: 0;
+}
+
+#t4_60 {
+    position: absolute;
+    left: 530px;
+    top: 384px;
+    opacity: 0;
+}
+
+#t5_60 {
+    position: absolute;
+    left: 680px;
+    top: 552px;
+    opacity: 0;
+}
+
+#t6_60 {
+    position: absolute;
+    left: 729px;
+    top: 475px;
+    opacity: 0;
+}
+
+#p1_60 {
+    position: absolute;
+    left: 496px;
+    top: 245px;
+    opacity: 0;
+}
+
+#p2_60 {
+    position: absolute;
+    left: 694px;
+    top: 422px;
+    opacity: 0;
+}

@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    -webkit-touch-callout: none;
+}
+
+html,
+body,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+table,
+tr,
+td,
+th,
+em,
+strong,
+pre,
+code,
+form,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+#Main_Container {
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#mask {
+    position: absolute;
+    left: 0px;
+    top: 336px;
+    width: 1024px;
+    height: 256px;
+    overflow: hidden;
+}
+
+#b1_64 {
+    position: absolute;
+    left: 280px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b2_64 {
+    position: absolute;
+    left: 342px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b3_64 {
+    position: absolute;
+    left: 475px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b4_64 {
+    position: absolute;
+    left: 537px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b5_64 {
+    position: absolute;
+    left: 664px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#b6_64 {
+    position: absolute;
+    left: 726px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+#t1_64 {
+    position: absolute;
+    left: 289px;
+    top: 320px;
+    opacity: 0;
+}
+
+#t2_64 {
+    position: absolute;
+    left: 342px;
+    top: 358px;
+    opacity: 0;
+}
+
+#t3_64 {
+    position: absolute;
+    left: 471px;
+    top: 329px;
+    opacity: 0;
+}
+
+#t4_64 {
+    position: absolute;
+    left: 539px;
+    top: 402px;
+    opacity: 0;
+}
+
+#t5_64 {
+    position: absolute;
+    left: 667px;
+    top: 307px;
+    opacity: 0;
+}
+
+#t6_64 {
+    position: absolute;
+    left: 727px;
+    top: 322px;
+    opacity: 0;
+}
+
+#p1_64 {
+    position: absolute;
+    left: 304px;
+    top: 260px;
+    opacity: 0;
+}
+
+#p2_64 {
+    position: absolute;
+    left: 496px;
+    top: 260px;
+    opacity: 0;
+}
+
+#p3_64 {
+    position: absolute;
+    left: 688px;
+    top: 260px;
+    opacity: 0;
+}

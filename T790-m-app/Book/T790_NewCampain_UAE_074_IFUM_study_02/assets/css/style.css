@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    -webkit-touch-callout: none;
+}
+
+html,
+body,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+table,
+tr,
+td,
+th,
+em,
+strong,
+pre,
+code,
+form,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+#Main_Container {
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#line1_74 {
+    position: absolute;
+    left: 149px;
+    top: 308px;
+    max-width: 304px;
+    height: 186px;
+    opacity: 1px;
+    background-image: url(../img/img/line1.png);
+}
+
+#line2_74 {
+    position: absolute;
+    left: 588px;
+    top: 309px;
+    max-width: 304px;
+    height: 128px;
+    opacity: 1px;
+    background-image: url(../img/img/line2.png);
+}
+
+#dot1_74 {
+    position: absolute;
+    left: 148px;
+    top: 423px;
+    opacity: 0;
+}
+
+#dot2_74 {
+    position: absolute;
+    left: 590px;
+    top: 423px;
+    opacity: 0;
+}

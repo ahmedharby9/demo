@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    -webkit-touch-callout: none;
+}
+
+html,
+body,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+table,
+tr,
+td,
+th,
+em,
+strong,
+pre,
+code,
+form,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+#Main_Container {
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#t1_87 {
+    position: absolute;
+    left: 119px;
+    top: 299px;
+    opacity: 0;
+}
+
+#t2_87 {
+    position: absolute;
+    left: 536px;
+    top: 299px;
+    opacity: 0;
+}
+
+#btnB {
+    position: absolute;
+    left: 214px;
+    top: 468px;
+    width: 112px;
+    height: 70px;
+}
+
+#btnC {
+    position: absolute;
+    left: 535px;
+    top: 286px;
+    width: 304px;
+    height: 261px;
+}
