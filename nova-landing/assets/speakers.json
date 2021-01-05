@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Ahmad Tarawah",
+    "about": "Consultant pediatrics hematology / oncology, head of pediatrics hematology / oncology department, King Abdullah Medical City, Madinah, Saudi Arabia, Vice-President; Madinah Hereditary Blood Disorders Charity Society, chairman, gulf hemophilia group. Dr. Tarawah has qualified in Medicine at King Abdulaziz University, Jeddah, Saudi Arabia in 1990. He commenced his training in pediatrics hematology / oncology at King Faisal Specialist Hospital, when he had fellowship certificate in 2001. He had a Training program on hemostasis at the Sick Kids Hospital, Toronto, Canada in 2000. Dr. Tarawah has clinical and research expertise in hemophilia, bleeding disorders and sickle cell anemia. He has more than 80 publications, was a speaker at many national/international conferences. He was presedint of 16 Conferences, chairman of many symposiums Organizing / scientific committees. He had led teams for guidelines preprations such as SCA, Hemophilia, vWD, rare bleeding disorders, Thalassemia and other 20 guidelines prpared for saudi ministry of health. ",
+    "imagePath": "speakers/3.png"
+  },
+  {
+    "id": 2,
+    "name": " Dr. Amal Alnajjar",
+    "about": "Dr. Amal Alnajjar is a Drug information specialist at Security Forces Hospital, Riyadh . she is a Consultant of Clinical Research Organization (CRO, and also holds a Drug Information and research preceptor at Alma’refa University. Prior to these appointments, she undertook many positions at King Khalid University Hospital & security forces hospital. Her main academic interests include training & development. Dr Amal has multiple publications and contributes in peer-reviewed journals.",
+    "imagePath": "speakers/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Nora Alkhudair",
+    "about": "Assistant Professor of Clinical Pharmacy at King Saud University in Riyadh. She is the DIRECTOR, PGY2 ONCOLOGY PHARMACY RESIDENCY PROGRAM at King Saud University. She is also Haematology/Oncology/Stem Cell Transplant Clinical Pharmacist at the Cancer Centre of King Saud University Medical City. She achieved her Doctor of Pharmacy degree from University of Illinois College of Pharmacy in Chicago. She is a registered pharmacist in both Illinois and Massachusetts of the United States of America. She has several publications in the field of Oncology and Haematology. Dr. Alkhudair is active member of multiple professional committees and international organisations. She is a speaker and presenter in several regional and international conferences. ",
+    "imagePath": "speakers/1.JPG"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Saeed Alqahtani",
+    "about": "Assistant Professor of Clinical Pharmacy at King Saud University in Riyadh. Dr. Alqahtani achieved his Doctor of Pharmacy degree from Massachusetts College of Pharmacy and Health Sciences, Manchester New Hampshire and Ph. D. in Pharmacy (Pharmacokinetics and Pharmacodynamics Modelling) from the University of Louisiana, Monroe Los Angeles. He has many publications in the field of pharmacokinetics and pharmacodynamics modelling and presented distinguished abstracts in international conferences most notably in the AAPS Annual Meeting 2013 and 2014 as well as being speaker in several scientific congresses. Dr. Alqahtani has clinical expertise in haemophilia through his practice as Oncology and Haematology Clinical Pharmacist the Oncology Centre of King Saud University Medical City and will be pleased to share insights on patient counselling in this special patient population. ",
+    "imagePath": "speakers/5.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Bassam bin Abbas",
+    "about": "He is a Professor of Pediatrics and Endocrinology at Al-Faisal University in Riyadh. He is Pediatric Endocrinology and Diabetes Consultant in King Faisal Specialist Hospital and Research Center. He is American Board of Pediatric Endocrinology holder in addition to the  Amercian, Arab and Jordanian boards of Pediatrics. Dr. Bin-Abbas has broad clinical and research experience in multiple endocrine disorders including Growth disorders  through more than 50 publications and three textbooks. He is a chair and member in several medical committees and international endocrinology assosciations.",
+    "imagePath": "speakers/6.JPG"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Bandar Balkhi",
+    "about": "He is Assistant Professor of Clinical Pharmacy at King Saud University in Riyadh and an expert in Healtheconomics and Health Policy making. He achieved his Doctor of Pharmacy degree at MCPHS University in Worcester Massachusetts and is PhD holder specialised in Pharmaceutical economics and policy from MCPHS University in Boston Massachusetts. He is now coordinator of the Pharmacoeconomics research unit in King Saud University. He has several publications in the field of clinical pharmacy and health economics and has been a speaker and presenter in many regional and international conferences. ",
+    "imagePath": "speakers/7.PNG"
+  },
+  {
+    "id": 6,
+    "name": "Mahmoud Galal",
+    "imagePath": "speakers/8.png"
+  }
+ 
+]

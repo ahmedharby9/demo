@@ -1,0 +1,181 @@
+.slide {
+    background: url(../images/bc.png) no-repeat left center; 
+    @include background-size (cover); 
+    position: relative;
+    height: 1000px;
+    padding:170px  310px  ;
+    width:100%;
+  @media #{$minScreen }{
+    height:70%;
+    padding: 100px 50px;
+
+}
+
+@media #{$extraSmallScreen}{
+  height: 50%;
+}
+@media #{$extraScreen}{
+  height: 60%;
+}
+
+  @media #{$responsiveScreen }{
+    height:100%;
+    padding:100px  30px;
+
+  }
+  
+  
+  @media #{$rotateMobile}{
+    height:100%;
+    padding:30px;
+  }
+  @media #{$ipadScreen} {
+    height: 50%;
+  }
+  @media #{$rotateScreen} {
+    height: 100%;
+  }
+
+
+  @media #{$rotateIpad}{
+    height:75%;
+    padding:90px 30px;
+  }
+
+  @media #{$minLap  }{
+    height: 1000px;
+    padding:170px  310px  ;
+
+  }
+
+
+/*     @media #{$maxScreen}{
+        height:40%;
+        padding:0  30px;
+
+    }
+ */    .text-top {
+      float:$left;
+      text-align: center;
+      @media #{$mediumScreen} {
+      padding-top: 50px;
+    }
+    @media #{$mobieScreen} {
+      padding-top: 20px;
+    }
+    @media #{$extraSmallScreen}{
+      padding-top: 0;
+    }
+    
+
+/*       h3 {
+          color: #fff;
+          font-size:  $mainFont + 33;
+          font-family: 'arial-rounded-mt-regular';
+          text-transform: uppercase;
+          padding: 300px 50px 0 0;
+          @media #{$mediumScreen} {
+            padding: 0;
+            font-size: $mainFont + 15;
+    
+        }
+    
+    
+      }
+ */    }
+    img {
+        width: 522px;
+        @media #{$minScreen }{
+          width:250px;
+          margin:35px 0 0 150px; 
+    
+      }
+    
+        @media #{$maxScreen} {
+            width: 150px;
+            margin:20px 85px; 
+        }
+        
+        @media #{$mobieScreen }{
+          margin:50px 0; 
+          width: 105px;
+
+        }
+        @media #{$extraScreen}{
+          margin:25px 0; 
+
+        }
+        @media #{$extraSmallScreen}{
+          margin:0; 
+        }
+        @media #{$extraScreen}{
+          margin:10px 0;
+        }
+        
+    }
+   .det {
+       color: $fixColor;
+       font-size: $mainFont + 10;
+       line-height: 1.2;
+       padding-top: 5px;
+       font-family: "Verdana" ;
+
+       @media #{$smallScreen} {
+        font-size: $mainFont ;
+    }
+
+
+       span {
+           display: block;
+           font-weight: bold;
+       }
+   }
+  .end-text {
+      position: absolute;
+      bottom: 50px;
+      float:right;
+      right: 200px;
+      color: #fff;
+      text-transform: capitalize;
+      font-size: $mainFont + 5;
+      @media #{$smallScreen} {
+        display: none;
+    }
+
+      p {
+          margin-bottom: 0;
+          font-family: "Verdana" ;
+
+          white-space: nowrap; 
+          width: 480px; 
+          overflow: hidden;
+          text-overflow: ellipsis; 
+          @media #{$smallScreen} {
+           width: 200px;
+        }
+    
+        
+        }
+          .texts {
+              text-transform: uppercase;
+              font-weight: bold;
+              letter-spacing: .04em;
+              @media #{$smallScreen} {
+                font-size: $mainFont - 2;
+            }
+        
+    
+            span {
+                display: block;
+                white-space: nowrap; 
+                width: 480px; 
+                overflow: hidden;
+                text-overflow: ellipsis; 
+  
+            }
+  
+          }
+     
+
+  } 
+}

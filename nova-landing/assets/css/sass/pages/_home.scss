@@ -1,0 +1,21 @@
+
+.text-down h3 {
+    color: $mainColor;
+    font-size: $mainFont +15 ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.head-down {
+    color: $mainColor; 
+    font-size: $mainFont + 5 ; 
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.head2 {
+  color:  $colorText;
+  font-size: $mainFont + 2 ; 
+  text-transform: capitalize;
+  margin-bottom: 0;
+
+}

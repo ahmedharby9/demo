@@ -1,0 +1,126 @@
+
+
+@mixin maxwidth {  
+    @media (max-width: 768px) {
+        @content;
+    }
+
+}
+
+
+/**mixin basicstyle **/
+@mixin  basicstyle {
+    color: $fixColor;
+    font-size: $mainFont + 1;
+    text-transform: capitalize;
+}
+
+/**mixin styletag **/
+@mixin styletag {
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}
+/** mixin overlay **/
+@mixin overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/** mixin all **/
+@mixin all {
+    width: 100%;
+    float: $left;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/** mixin form-control **/
+@mixin form-control {
+
+    &:hover,
+    &:active,
+    &:focus {
+       outline: none;
+       box-shadow: none;
+    }
+}
+
+@mixin sectionbasic {
+    float: $left;
+    width: 100%;
+    padding: 50px 0;
+}
+@mixin spot {
+    float: $left;
+    color: $ColorTitle;
+    font-size: $mainFont + 2 ; 
+    font-family: "SourceSansPro-Bold";
+    text-transform: uppercase;
+    border: 2px solid #006D92;
+    border-radius: $bRadius;
+    padding: 2px 10px;
+    &:hover,
+    &:active,
+    &:focus {
+       text-decoration: none;
+    }
+}
+
+@mixin right-img {
+    position:absolute;
+    bottom:0;
+    right:25px;
+    width: 190px;
+}
+/**mixin prefixer **/
+@mixin prefixer ($property, $value, $prefixes: ()) {
+    @each $prefix in $prefixes {
+        #{'-' + $prefix + '-' + $property}: $value;
+    
+}
+#{$property}: $value;
+
+}
+
+
+/**mixin animation **/
+@mixin keyFrame($animation-name){
+    @-webkit-keyframes #{$animation-name}{
+        @content;
+    }
+    @-moz-keyframes #{$animation-name}{
+        @content;
+    }
+    @keyframes #{$animation-name}{
+        @content;
+    }
+
+    
+}
+
+/**mixin transtion **/
+
+@mixin transition($arguments) {
+    -webkit-transition: $arguments;
+    -moz-transition: $arguments;
+    -o-transition: $arguments;
+    transition: $arguments;
+    
+}
+
+/**mixin background-size **/
+
+@mixin background-size ($arguments) {
+    -webkit-background-size : $arguments;
+    -moz-background-size : $arguments;
+    -o-background-size : $arguments;
+    background-size : $arguments;
+    
+}

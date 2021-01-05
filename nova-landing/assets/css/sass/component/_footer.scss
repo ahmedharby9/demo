@@ -1,0 +1,118 @@
+.footer {
+    background:$mainColor;
+    position: relative;
+    float: $left;
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+    .foot {
+     float: $left;
+     width: 100%;
+     margin-bottom: 10px;
+     padding: 50px 30px;
+     position: relative;
+     text-align: center;
+
+     @media #{$mediumScreen} {
+        margin-bottom:25px;
+      }
+  
+     a {
+         color: #fff;
+         font-size: $mainFont + 3;
+         font-family: "Verdana" ;
+
+     }
+     h3 {
+         color: #fff;
+         text-transform: uppercase;
+         font-size: $mainFont - 3;
+         padding-bottom: 20px;
+         font-family: "Verdana" ;
+         @media #{$maxScreen} {
+            padding-bottom: 0px;
+          }
+
+     }
+     p {
+         color: #fff;
+         margin-bottom: 5px;
+         text-transform: capitalize;
+         font-size: $mainFont + 1;
+         font-family: "Verdana" ;
+         @media #{$mediumScreen} {
+            font-size: $mainFont - 1;
+            padding-bottom:2px;
+          }
+      
+    
+
+
+     }
+     ul {
+         li {
+             color: #fff;
+             text-transform: capitalize;
+             font-size: $mainFont + 3;
+             font-family: "Verdana" ;
+
+    
+         }
+     }
+     .img-footer {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        img {
+            width: 130px;
+            margin: 0 auto;
+            @media #{$mobieScreen}{
+                width: 80px;
+            }
+    
+        }
+        @media #{$mobieScreen}{
+            position: unset;
+        }
+        }
+    
+    }
+    .social {
+        float: $left;
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 15px;
+        width: 100%;
+        li {
+            display: inline-block;
+            margin-left: 30px;
+          @media #{$mobieScreen}{
+                margin: 0 10px;
+            }
+    
+        }
+        @media #{$maxScreen }{
+            margin-top: 150px;
+        }
+        @media #{$mobieScreen}{
+            margin-left: 0;
+            margin-top: 20px;
+        }
+
+    }
+}
+
+.copy-right {
+    
+    float: $left;
+    width: 100%;
+    background: #fff;
+    padding: 10px;;
+    p{
+        color: #000;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}

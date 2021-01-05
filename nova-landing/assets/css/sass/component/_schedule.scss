@@ -1,0 +1,165 @@
+.schedule {
+    @include sectionbasic;
+    h3 {
+        @extend .title ;
+    }
+    .calendar {
+        background: $mainColor;
+        padding: 20px;
+        color: #fff;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        margin: 15px 0 60px ;
+    }
+    .head {
+        color: $mainColor;
+        text-transform: capitalize;
+        font-size: $mainFont ;
+        margin-bottom: 20px;
+    }
+    .slick-slide {
+        margin-top: 30px;
+        &:hover,
+        &:active,
+        &focus {
+         outline: none;
+         box-shadow: none;
+        }
+    }
+    .date {
+        color: $colorText;
+        font-size: $mainFont + 5;
+        font-weight: bold;
+        margin: -10px 0 0;
+        @media #{$maxScreen} {
+          font-size: $mainFont - 2 ;
+          margin-left: 10px;
+          margin-bottom: 10px;
+          margin-top: 0;
+      }
+  
+      }
+      .vl {
+        border-left: 1px solid #CFD8DC;
+        height: 160px;
+        float: $left;
+        position: relative;
+        @media#{$minScreen } {
+           height: 208px;
+        }
+
+        
+      } 
+      .circles{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $colorTitle;
+        position:absolute;
+        left: -7px;
+        top: 0;
+      }
+ 
+      .box-time {
+        border: 1px solid #f2f2f2;
+        border-radius: 15px;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0px 2px 4px 0px #ded8d866;
+        margin-left: 20px;
+        height: 155px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        width: 95%;
+        @media #{$mediumScreen} {
+          margin-left: 15px;
+      }
+  
+        h4 {
+          text-transform: capitalize;
+          color:$colorText;
+          font-size: $mainFont  ;
+          margin: 0;
+          @media #{$extraScreen }{
+            font-size: $mainFont - 2;
+          }
+
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            list-style: none;
+            padding-top: 5px;
+            text-transform: capitalize;
+            font-size: $mainFont - 1 ;
+            color: #B0BEC5 ;
+            small {
+             font-size: $mainFont - 3 ; 
+             text-transform: lowercase;
+     
+            }
+            .dead {
+             color: #B0BEC5;
+             padding-left: 5px;
+            }
+            .locat {
+              img {
+                width: 10px;
+                height: 12px;
+                margin-right: 5px;
+                float: $left;
+                margin-top: 4px;
+                float: $left;
+              }
+            }
+          }
+          .speak {
+            span {
+            margin-right: 10px;
+            margin-top: 6px;
+            float: $left;
+            @media #{$maxScreen}{
+              font-size: $mainFont - 3;
+            }
+
+/*             @media #{$extraScreen }{
+              font-size: $mainFont - 3;
+            }
+ */      
+      
+           }
+          }
+          .mask {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+          }
+        }
+        .clock {
+          text-align: center;
+          img {
+            width: 30px;
+            height: 30px;
+            margin: 10px auto;
+          }
+          .cl{
+            margin-top: 10px;
+            color:#B0BEC5;
+            text-transform: capitalize;
+            font-size:  $mainFont;
+            display: block;
+          }
+        }
+      }
+     
+      .slick-slide{
+        @media #{$mediumScreen} {
+         margin-left: 10px !important;
+        }
+  
+      }     
+
+}
+
+

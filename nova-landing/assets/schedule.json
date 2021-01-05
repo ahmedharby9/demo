@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "speakers": [3],
+    "start": 1556884801,
+    "end": 1556885101,
+    "topic": "Welcome & Introduction",
+    "location": "Jeddah Hotel (Sofitel Jeddah Corniche)",
+    "deadLine": 1556885101
+  },
+  {
+    "id": 2,
+    "speakers": [1],
+    "start": 1556885101,
+    "end": 1556886001,
+    "topic": "Pathology of ITP , helping to direct treatment",
+    "location": "Jeddah Hotel (Sofitel Jeddah Corniche)",
+    "deadLine": 1556886001
+  },
+  {
+    "id": 3,
+    "speakers": [1],
+    "start": 1556886001,
+    "end": 1556887201,
+    "topic": "Sequencing of Second line therapy in ITP",
+    "location": "Jeddah Hotel (Sofitel Jeddah Corniche)",
+    "deadLine": 1556887201
+  },
+  {
+    "id": 4,
+    "speakers": [1],
+    "start": 1556887201,
+    "end": 1556889001,
+    "topic": "Eltrompobag data in 2nd line ",
+    "location": "Jeddah Hotel (Sofitel Jeddah Corniche)",
+    "deadLine": 1556889001
+  },
+  {
+    "id": 5,
+    "speakers": [1,2],
+    "start": 1556889001,
+    "end": 1556891101,
+    "topic": "cITP clinical Cases",
+    "location": "Jeddah Hotel (Sofitel Jeddah Corniche)",
+    "deadLine": 1556891101
+  },
+  {
+    "id": 6,
+    "speakers": [1,2,3],
+    "start": 1556891101,
+    "end": 1556892001,
+    "topic": "Q&A",
+    "location": "Jeddah Hotel (Sofitel Jeddah Corniche)",
+    "deadLine": 1556892001
+  }
+]

@@ -1,0 +1,168 @@
+.speaker-box {
+    padding-top: 30px;
+
+.text-box {
+    text-transform: capitalize;
+    margin-top: 150px;
+    @media #{$maxScreen}{
+        margin-top: 0;
+  }
+
+
+    .tits {
+        color: $colorTitle;
+        font-size: $mainFont + 10;
+    
+    }
+    .hint {
+        color: $fixColor;
+        font-size: $mainFont - 1;
+    }
+p {
+    color: $fixColor;
+    font-size: $mainFont - 2 ;
+      @media #{$mobieScreen }{
+        font-size: $mainFont - 4;
+      }
+
+
+
+}    
+b{
+    text-transform: uppercase;
+}
+}
+.box-speak {
+    float: $left;
+    width: 100%;
+    height:190px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    @media #{$maxScreen}{
+          height: 100px;
+    }
+    @media #{$smallScreen}{
+        height: auto;
+  }
+
+
+    @include transition(ease-in-out .3s);
+
+    .img-speak {
+        width: 100%;
+      height: 100%;
+      @media #{$maxScreen}{
+        object-fit: contain;
+  }
+
+
+    }
+  .overlay {
+        position:absolute;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0.20);
+        height: 100%;
+        width: 100%;
+        right:0;
+        top:0;
+        @include transition(ease-in-out .3s);
+   }
+       .names{
+        position:absolute;
+        z-index: 20;
+        top: -100px;
+         width: 100%;
+         text-align: center;
+         @include transition(ease-in-out .3s);
+         h4 {
+          color: $fixColor;
+          text-transform: capitalize;
+          font-size: $mainFont;
+          font-weight: bold;
+          @media #{$maxScreen }{
+            font-size: $mainFont - 3;
+          }
+          @media #{$mobieScreen }{
+            font-size: $mainFont;
+          }
+
+          span {
+              display: block;
+              padding-top: 10px;
+              font-size: $mainFont - 2;
+              font-weight: normal;
+          }
+         }
+        
+ 
+       } 
+    
+    .social {
+        position:absolute;
+        z-index: 20;
+        bottom: -100px;
+         width: 100%;
+         text-align: center;
+         @include transition(ease-in-out .3s);
+
+         ul {
+             padding: 0;
+            li {
+                display: inline-block;
+                padding: 7px;
+            } 
+         }
+
+    }
+
+
+    &:hover .names{
+        top:70px;
+        @media #{$maxScreen} {
+            top: 35px;
+         }
+         @media #{$smallScreen} {
+            top: 130px;
+         }
+
+    }
+    &:hover .social {
+        bottom: 70px;
+    }
+
+}
+}
+
+.speak {
+    width: 100%;
+    float: $left;
+    text-align: center;
+    margin-bottom: 30px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    h3{
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: $mainFont + 10;
+        color: $mainColor;
+    }
+    h4 {
+        text-transform: capitalize;
+        font-size: $mainFont ;
+
+    }
+    h5 {
+       
+        text-transform: uppercase;
+        font-size: $mainFont + 15;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+.head-speakers {
+    text-align: center;
+}

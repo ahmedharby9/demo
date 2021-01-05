@@ -1,0 +1,168 @@
+
+.navbar {
+    position: fixed;
+    z-index: 20;
+    width:100%;
+    padding: 20px 45px;
+    background-color: #fff;
+    box-shadow: -4px -2px 5px 1px #707070;
+    @media #{$mediumScreen } {
+        padding:10px;
+     }
+
+
+
+     .navbar-toggler {
+         border-color:transparent;
+        }
+     
+  .navbar-brand {
+      padding-right: 30px;
+      @media #{$smallScreen} {
+        padding-right: 0;
+        margin-bottom: 10px;
+     }
+     @media #{$extraScreen} {
+        margin-bottom: 0;
+     }
+
+     img {
+         width:130px;
+         @media #{$smallScreen} {
+            width: 130px;
+         }
+
+     } 
+  }
+  .nav-item {
+      padding: 0 20px;
+    .nav-link {
+       @include basicstyle ;
+       &:hover {
+           cursor: pointer;
+       }
+  
+  }
+  }
+   .signup {
+       float:$right;
+       text-transform: capitalize;
+       margin-left: 25px;
+
+       a {
+        @include basicstyle ;
+        @include  styletag ;
+       }
+       img {
+           width: 16px;
+           height: 16px;
+           margin-right: 5px;
+           @media #{$smallScreen} {
+            width: 20px;
+            height: 20px;
+           }
+            @media #{$extraScreen }{
+                width: 15px;
+            height: 15px;
+            }
+       
+    
+       }
+       &:hover,
+       &:active,
+       &:focus {
+           cursor: pointer;
+       }
+
+       @media #{$smallScreen} {
+        font-size: $mainFont - 3;
+        margin-right: 0px;
+        margin-left: 0;
+    }
+@media #{$maxScreen }{
+    margin-top:0;
+
+}
+@media #{$mobieScreen }{
+    margin-top: -12px;
+
+}
+@media #{$extraScreen }{
+    font-size: $mainFont - 6;
+    margin-top: 0;
+}
+
+
+   }
+   .right-sign {
+    @media #{$maxScreen} {
+        margin-right: 40px;
+    }
+    @media #{$extraScreen }{
+        margin-top: 10px;
+    }
+    @media #{$extraScreen }{
+        margin-top: 0;
+    }
+
+   }
+}
+.open-button {
+    margin-top: 3px;
+    width: 105px;
+    overflow: hidden;
+    height: 20px;
+}
+
+
+.navbar-nav {
+    @media #{$mediumScreen} {
+        padding: 15px 0;
+    }
+
+ }
+
+ .navbar .nav-item {
+    @media #{$mediumScreen} {
+        border-bottom: 1px dotted #ddd;
+    }
+    @media #{$minScreen} {
+      padding: 0 14px;
+    }
+
+ }
+
+ .navbar-toggler-icon {
+    width: 1.2em;
+    height: 1.2em;
+    @media #{$smallScreen} {
+    }
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 30px;
+        padding: 5px 0;
+        @media #{$maxScreen }{
+            top: 19px;
+        
+        }
+        @media #{$smallScreen }{
+            top: 17px;
+        
+        }
+        
+        
+    }
+.back-icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.log {
+    @media #{$extraScreen }{
+      
+    }
+}
