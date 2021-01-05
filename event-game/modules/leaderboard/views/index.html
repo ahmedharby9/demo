@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default" role="navigation" ng-include="'modules/menu/views/menu.html'">
+
+</nav>
+
+<div class="container-fluid leaderBoard" ng-show="!hitScreen">
+    <div class="row">
+        <h1 class="text-center"> Leader Board </h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <div id="doScroll" ng-iscroll="doScroll">
+                <ul class="list-unstyled ">
+                    <li ng-repeat="arr in array"><span> {{arr.player_name}}</span><span class="pull-right">{{arr.total_score}}</span></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid cong" ng-show="hitScreen">
+    <div class="row text-center">
+        <h1 class="text-center"><img src="./asset/images/leftside_congrats.png" /> Congratulations <img src="./asset/images/rightside_congrats.png" /> </h1>
+        <small> Winner is ... </small>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <h2 ng-repeat="win in winners">{{win.player_name}}<img src="./asset/images/winner.png" /></h2>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "angular_teas_screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harby",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-iscroll": "^3.2.0",
+    "angular-virtual-keyboard": "^0.4.3",
+    "animate": "0.0.5",
+    "animated": "^0.1.2",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "font-awesome": "^4.6.1",
+    "http-server": "^0.9.0",
+    "jquery": "^2.2.3",
+    "jsonfile": "^2.3.0",
+    "lodash": "^4.11.1",
+    "morgan": "^1.7.0"
+  }
+}

@@ -1,0 +1,1001 @@
+[{
+    "id": 1,
+    "Q": "The word most HS patients associate with the disease is …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Depression",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Pain",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "Embarrassment",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "None of the above ",
+            "R": false
+        }
+    ]
+},{
+    "id": 2,
+    "Q": "Which of the following about the patient journey with HS is correct?",
+    "A": [
+        {
+            "id": "A",
+            "A": "The journey starts with the first symptoms stage and ends with treatment.",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "After the disease diagnosis, the patient feels concern and fear followed by depression.",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "The first symptoms that appear are abscesses in the armpits, the groin and the upper thighs.",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "All of the above",
+            "R": false
+        }
+    ]
+},{
+    "id": 3,
+    "Q": "It typically takes ... years before HS is diagnosed.",
+    "A": [
+        {
+            "id": "A",
+            "A": "12",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "5",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "10",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "8",
+            "R": true
+        }
+    ]
+},{
+    "id": 4,
+    "Q": "HS is often seen in the …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Elbows",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Neck",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "Groin area",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "None of the above ",
+            "R": false
+        }
+    ]
+},{
+    "id": 5,
+    "Q": "HS is caused by inflammation of ...",
+    "A": [
+        {
+            "id": "A",
+            "A": "The sweat gland",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "The sebaceous gland",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "The epidermis",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "None of the above ",
+            "R": true
+        }
+    ]
+},{
+    "id": 6,
+    "Q": "HS is made worse by the fact that other diseases often coincide with HS. These diseases include …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Psoriasis",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Rheumatism",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "Spondyloarthritis",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "Psoriatic arthritis",
+            "R": false
+        }
+    ]
+},{
+    "id": 7,
+    "Q": "... are from the factors that are presumed to contribute to or aggravate HS.",
+    "A": [
+        {
+            "id": "A",
+            "A": "Smoking, obesity, mental stress and tight clothing",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Smoking, alcohol, mental stress and tight clothing",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "Smoking, obesity, physical stress and tight clothing",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "Smoking, alcohol, physical stress and tight clothing",
+            "R": false
+        }
+    ]
+},{
+    "id": 8,
+    "Q": "HS is often hereditary. ... have family members with HS.",
+    "A": [
+        {
+            "id": "A",
+            "A": "35%",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "54%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "46%",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "44% ",
+            "R": true
+        }
+    ]
+},{
+    "id": 9,
+    "Q": "HS is a …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Chronic inflammatory disease",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Systemic immune-mediated disease",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "Progressive disease",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "All of the above",
+            "R": true
+        }
+    ]
+},{
+    "id": 10,
+    "Q": "Elevated ... is found in the blood and in the inflamed HS skin lesions.",
+    "A": [
+        {
+            "id": "A",
+            "A": "IL-6",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "IL-1",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "TNF-α",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "TGF-β",
+            "R": false
+        }
+    ]
+},{
+    "id": 11,
+    "Q": "HS is often misdiagnosed with a mean delay in diagnosis. This may be due to all of the following except …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Lesions are most often thought to be common abscesses.",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "The early lesions always appear in few specific sites.",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "HS is often not well known to general practitioners and other specialists.",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "None of the above ",
+            "R": false
+        }
+    ]
+},{
+    "id": 12,
+    "Q": "Which of the following about the Hurley classification of HS is true?",
+    "A": [
+        {
+            "id": "A",
+            "A": "Hurley Stage III: Recurrent abscesses with tract formation and scarring; single or multiple, widely separated lesions",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Hurley Stage II: Diffuse or near-diffuse involvement or multiple interconnected tracts and abscesses across the entire area",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "Hurley Stage I: Recurrent abscesses with tract formation and scarring; single or multiple, widely separated lesions",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "None of the above ",
+            "R": true
+        }
+    ]
+},{
+    "id": 13,
+    "Q": "The Mean Baseline of Dermatology Life Quality Index in HS, as measured by PIONEER I and PIONEER II, is …",
+    "A": [
+        {
+            "id": "A",
+            "A": "11.3 in PIONEER I and 14.1 in PIONEER II",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "16. 3 in PIONEER I and 18 in PIONEER II",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "16. 3 in PIONEER I and 14.1 in PIONEER II",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "11.3 in PIONEER I and 16.3 in PIONEER II",
+            "R": false
+        }
+    ]
+},{
+    "id": 14,
+    "Q": "Moderate-to-severe HS has a profound physical and emotional impact causing …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Limited mobility",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "Sexual impairment ",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "Fear",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "All of the above except C",
+            "R": false
+        }
+    ]
+},{
+    "id": 15,
+    "Q": "The estimated impact of HS overall is ... of the adult population worldwide.",
+    "A": [
+        {
+            "id": "A",
+            "A": "2%",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "2.20%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "1%",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "1.20% ",
+            "R": false
+        }
+    ]
+},{
+    "id": 16,
+    "Q": "As per the European S1 Guideline for the treatment of hidradenitis suppurativa/acne inversa, …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Signs in the secondary positive diagnostic criteria include involvement of axilla, genitofemoral area, perineum, gluteal area and infra-mammary area of women.",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "History of primary positive diagnostic criteria include family history of HS.",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "The differential diagnosis include Staphylococcal infection. (Lesions are spread in a random fashion and more pustular.)",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "All of the above ",
+            "R": false
+        }
+    ]
+},{
+    "id": 17,
+    "Q": "The number of patients treated with Humira<sup>&reg;</sup> worldwide is currently …",
+    "A": [
+        {
+            "id": "A",
+            "A": "490,000",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "940,000",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "840,000",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "900,000 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 18,
+    "Q": "Humira<sup>&reg;</sup> is approved for ... Indications worldwide.",
+    "A": [
+        {
+            "id": "A",
+            "A": "9",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "10",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "12",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "11 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 19,
+    "Q": "Humira<sup>&reg;</sup> is studied in ... global clinical trials.",
+    "A": [
+        {
+            "id": "A",
+            "A": "67",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "76",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "70",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "69 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 20,
+    "Q": "The first approved indication for Humira<sup>&reg;</sup> in 2003 was …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Adult severe active AS",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Adult active moderate-to-severe HS",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "Adult moderately-to-severely active CD",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "Adult moderate-to-severe RA",
+            "R": true
+        }
+    ]
+},{
+    "id": 21,
+    "Q": "Adult active moderate-to-severe HS was approved as an indication for Humira<sup>&reg;</sup> in …",
+    "A": [
+        {
+            "id": "A",
+            "A": "2014",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "2015",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "2003",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "2006 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 22,
+    "Q": "When was the first approved indication for Humira<sup>&reg;</sup>?",
+    "A": [
+        {
+            "id": "A",
+            "A": "2005",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "2006",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "2003",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "2007 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 23,
+    "Q": "Humira<sup>&reg;</sup> represents … of the total Abbvie turnover globally.",
+    "A": [
+        {
+            "id": "A",
+            "A": "40%",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "55%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "35%",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "60% ",
+            "R": true
+        }
+    ]
+},{
+    "id": 24,
+    "Q": "Humira<sup>&reg;</sup> has ... years of experience.",
+    "A": [
+        {
+            "id": "A",
+            "A": "18 years",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "12 years",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "10 years",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "8 years ",
+            "R": false
+        }
+    ]
+},{
+    "id": 25,
+    "Q": "Humira<sup>&reg;</sup> was approved for psoriasis indication in …",
+    "A": [
+        {
+            "id": "A",
+            "A": "2003",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "2005",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "2015",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "2008 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 26,
+    "Q": "Humira<sup>&reg;</sup> sales 2020 forecast is … ",
+    "A": [
+        {
+            "id": "A",
+            "A": "$14 billion ",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "$15 billion ",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "$18 billion ",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "$30 billion  ",
+            "R": false
+        }
+    ]
+},{
+    "id": 27,
+    "Q": "Humira<sup>&reg;</sup> sales 2015 was …",
+    "A": [
+        {
+            "id": "A",
+            "A": "$14 billion ",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "$15 billion ",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "$18 billion ",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "$30 billion  ",
+            "R": false
+        }
+    ]
+},{
+    "id": 28,
+    "Q": "Humira<sup>&reg;</sup> has a total … number of approved indications in the region.",
+    "A": [
+        {
+            "id": "A",
+            "A": "10",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "5",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "6",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "12",
+            "R": false
+        }
+    ]
+},{
+    "id": 29,
+    "Q": "Humira<sup>&reg;</sup> was approved for severe active pediatric Crohn's disease indication in …",
+    "A": [
+        {
+            "id": "A",
+            "A": "2008",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "2012",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "2015",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "2014 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 30,
+    "Q": "The largest global safety analysis published for an anti-TNF is across … indications.",
+    "A": [
+        {
+            "id": "A",
+            "A": "6",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "12",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "10",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "4 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 31,
+    "Q": "In PIONEER I Study, the percentage of patients achieving HiSCR with Humira<sup>&reg;</sup> 40 mg weekly by Week 12 was ..., while by Week 36 …",
+    "A": [
+        {
+            "id": "A",
+            "A": "26%, 26.5%",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "14.8%, 16%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "41.8%, 43.8%",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "58.9%, 43.9% ",
+            "R": false
+        }
+    ]
+},{
+    "id": 32,
+    "Q": "In PIONEER II Study, the percentage of patients achieving HiSCR with Humira<sup>&reg;</sup> 40 mg weekly by Week 12 was …",
+    "A": [
+        {
+            "id": "A",
+            "A": "28%",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "14.80%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "41.80%",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "58.90% ",
+            "R": true
+        }
+    ]
+},{
+    "id": 33,
+    "Q": "In PIONEER II Study, the percentage of Humira<sup>&reg;</sup>-treated patients who achieved a decrease (≥30%) in HS-related skin pain at Week 12 was ...",
+    "A": [
+        {
+            "id": "A",
+            "A": "40%",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "36%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "28%",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "46% ",
+            "R": true
+        }
+    ]
+},{
+    "id": 34,
+    "Q": "In PIONEER I and PIONEER II Studies, Humira<sup>&reg;</sup> 40 mg weekly reduced the risk of worsening of multiple types of HS lesions as fewer inflammatory nodules by …",
+    "A": [
+        {
+            "id": "A",
+            "A": "22%",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "25%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "23%",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "15% ",
+            "R": false
+        }
+    ]
+},{
+    "id": 35,
+    "Q": "In PIONEER I Study, the percentage of patients achieving meaningful improvement in quality of life with Humira<sup>&reg;</sup> 40 mg weekly was …",
+    "A": [
+        {
+            "id": "A",
+            "A": "50.3%",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "40%",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "35.70%",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "50% ",
+            "R": false
+        }
+    ]
+},{
+    "id": 36,
+    "Q": "In PIONEER I Study, significant improvement in physical health measures with Humira<sup>&reg;</sup> 40 mg weekly was ... times greater than placebo.",
+    "A": [
+        {
+            "id": "A",
+            "A": "2",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "3",
+            "R": true
+        },
+        {
+            "id": "C",
+            "A": "1.5",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "2.5 ",
+            "R": false
+        }
+    ]
+},{
+    "id": 37,
+    "Q": "After the loading dose, the every week Humira<sup>&reg;</sup> dosing is ... mg.",
+    "A": [
+        {
+            "id": "A",
+            "A": "80",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "160",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "20",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "40 ",
+            "R": true
+        }
+    ]
+},{
+    "id": 38,
+    "Q": "The main inclusion criteria for PIONEER I and PIONEER II Studies was/were …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Having an inadequate response to at least a 90-day course of oral antibiotics for the treatment of HS",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Having a total abscess and inflammatory nodule (AN) count of ≥3 at baseline",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "HS lesions must be present in ≥2 body areas, one of which must be Hurley Stage II or Hurley Stage III",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "All of the above",
+            "R": true
+        }
+    ]
+},{
+    "id": 39,
+    "Q": "With once-weekly dosing, Humira<sup>&reg;</sup> can connect your patients to …",
+    "A": [
+        {
+            "id": "A",
+            "A": "Rapid results as early as 3 weeks",
+            "R": false
+        },
+        {
+            "id": "B",
+            "A": "Significant and long-term efficacy in reducing abscesses and nodules through week 58",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "The largest global safety analysis published for an anti-TNF across 6 indications",
+            "R": true
+        },
+        {
+            "id": "D",
+            "A": "All of the above ",
+            "R": false
+        }
+    ]
+},{
+    "id": 40,
+    "Q": "The treatment-emergent adverse events in PIONEER I Study were as follows: Any event ... % for Humira<sup>&reg;</sup> weekly versus … % for placebo",
+    "A": [
+        {
+            "id": "A",
+            "A": "52.9, 61.8",
+            "R": true
+        },
+        {
+            "id": "B",
+            "A": "52.9, 62.8",
+            "R": false
+        },
+        {
+            "id": "C",
+            "A": "48.6, 55.6",
+            "R": false
+        },
+        {
+            "id": "D",
+            "A": "55.6, 48.6",
+            "R": false
+        }
+    ]
+}]

@@ -1,0 +1,128 @@
+<nav class="navbar navbar-default" role="navigation" ng-include="'modules/menu/views/menu.html'">
+
+</nav>
+
+<div class="container-fluid" >
+    <div class="row">
+        <div class="container-content">
+            <div class="col-xs-12 col-md-8 col-lg-8">
+                <div class="login-status">
+                    <div><h1>Login</h1></div>
+                    <ul>
+                        <li tabindex="0" ng-click="typePlayer=false">1<sup>st</sup> time</li>
+                        <li tabindex="0" ng-click="typePlayer=true">Current User</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4" >
+                <!--login-->
+                <div class="login-status" ng-show="typePlayer">
+                    <div><h1>Login</h1></div>
+                    <div ng-show="error" class="alert alert-danger">{{error}}</div>
+                    <form class="login-form" name="form" role="form">
+                        <input type="text" name="username" id="username" type="text" ng-model="username" placeholder="&rsaquo; Name" required ng-virtual-keyboard="{numberPad: true, showVersion: true, relative: false}"/>
+                        <span ng-show="form.username.$dirty && form.username.$error.required" class="help-block">Username is required</span>
+                        <input type="password" name="password" id="password" placeholder="&rsaquo; Password"
+                               ng-model="password" required ng-virtual-keyboard="{numberPad: true, showVersion: true, relative: false}"/>
+                        <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
+                        <button type="button" ng-disabled="form.$invalid" ng-click="login()" class="registerbtn" style="margin-left:82%">Login</button>
+                    </form>
+                </div>
+                <!--registration -->
+                <div class="login-status" ng-show="!typePlayer">
+                    <div><h1>Register</h1></div>
+                    <div ng-show="bool" class="alert alert-danger">username is exist</div>
+                    <form class="login-form" name="registerForm"  role="form">
+                        <input type="text" name="username_R" id="username_R"  ng-model="username_R" placeholder="&rsaquo; Name"  ng-virtual-keyboard="{numberPad: true, showVersion: true, relative: false}"
+                        required/>
+                        <span ng-show="registerForm.username_R.$dirty && registerForm.username_R.$error.required" class="help-block">Username is required</span>
+                        <input type="password" name="password_R" id="password_R"  placeholder="&rsaquo; Password"  ng-virtual-keyboard="{numberPad: true, showVersion: true, relative: false}"
+                        ng-model="password_R" required  ng-change="checkPass()"/>
+                        <span ng-show="registerForm.password_R.$dirty && registerForm.password_R.$error.required" class="help-block">Password is required</span>
+                        <input type="password" name="password_R_con" id="password_r_con" placeholder="&rsaquo; Confirm Password"  ng-virtual-keyboard="{numberPad: true, showVersion: true, relative: false}"
+                        ng-model="password_R_conf" required ng-change="checkPass()"/>
+                        <span ng-show="registerForm.password_R_con.$dirty && registerForm.password_R_con.$error.required" class="help-block">Confirm password is required</span>
+                        <span ng-show="check"  class="help-block ">Not matching</span>
+                    </form>
+                    <button type="button" ng-disabled="registerForm.$invalid || check" class="pull-right registerbtn" ng-click="userRegister()" style="margin-left:82%">Register</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container-fluid">
+        <a href="#/leaderBoard"> <p>Leader Board</p></a>
+    </div>
+</footer>
+
+
+
+<!--<div class="container-fluid bg-blue-dark" style="height: 100%;">-->
+    <!--<div class="row well-sm">-->
+        <!--<div class="col-md-4 col-md-offset-4 bg-warning well-lg m-t-30P">-->
+            <!--<div ng-show="error" class="alert alert-danger">{{error}}</div>-->
+            <!--<form name="form" role="form">-->
+                <!--<div class="form-group">-->
+                    <!--<label for="username">Username</label>-->
+                    <!--<i class="fa fa-key"></i>-->
+                    <!--<input type="text" name="username" id="username" class="form-control input-lg" ng-model="username"-->
+                           <!--required/>-->
+                    <!--<span ng-show="form.username.$dirty && form.username.$error.required" class="help-block">Username is required</span>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label for="password">Password</label>-->
+                    <!--<i class="fa fa-lock"></i>-->
+                    <!--<input type="password" name="password" id="password" class="form-control input-lg"-->
+                           <!--ng-model="password" required/>-->
+                    <!--<span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>-->
+                <!--</div>-->
+                <!--<div class="form-actions">-->
+                    <!--<button type="button" ng-disabled="form.$invalid" ng-click="login()" class="btn btn-danger btn-lg">-->
+                        <!--Login-->
+                    <!--</button>-->
+
+                <!--</div>-->
+            <!--</form>-->
+
+        <!--</div>-->
+        <!--<div class="col-md-4 bg-info well-lg">-->
+            <!--<div ng-show="bool" class="alert alert-danger">username is exist</div>-->
+            <!--<div ng-show="msg" class="alert alert-success">Done</div>-->
+            <!--<form name="registerForm"  role="form">-->
+                <!--<div class="form-group">-->
+                    <!--<label for="username">Username</label>-->
+                    <!--<i class="fa fa-key"></i>-->
+                    <!--<input type="text" name="username_R" id="username_R" class="form-control input-lg" ng-model="username_R"-->
+                           <!--required/>-->
+                    <!--<span ng-show="registerForm.username_R.$dirty && registerForm.username_R.$error.required" class="help-block">Username is required</span>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label for="password">Password</label>-->
+                    <!--<i class="fa fa-lock"></i>-->
+                    <!--<input type="password" name="password_R" id="password_R" class="form-control input-lg"-->
+                           <!--ng-model="password_R" required  ng-change="checkPass()"/>-->
+                    <!--<span ng-show="registerForm.password_R.$dirty && registerForm.password_R.$error.required" class="help-block">Password is required</span>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label for="password">Password</label>-->
+                    <!--<i class="fa fa-lock"></i>-->
+                    <!--<input type="password" name="password_R_con" id="password_r_con" class="form-control input-lg"-->
+                           <!--ng-model="password_R_conf" required ng-change="checkPass()"/>-->
+                    <!--<span ng-show="registerForm.password_R_con.$dirty &&registerForm.password_R_con.$error.required" class="help-block">Password is required</span>-->
+                    <!--<span ng-show="check"  class="help-block ">Not matching</span>-->
+                <!--</div>-->
+                <!--<div class="form-actions">-->
+                    <!--<button type="button" ng-disabled="registerForm.$invalid" class="btn btn-danger btn-lg" ng-click="userRegister()">-->
+                        <!--Register-->
+                    <!--</button>-->
+
+                <!--</div>-->
+            <!--</form>-->
+        <!--</div>-->
+    <!--</div>-->
+
+<!--</div>-->

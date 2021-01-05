@@ -1,0 +1,887 @@
+@font-face {
+    font-family: 'robotothin';
+    src: url('Roboto-Thin-webfont.eot');
+    src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'), url('Roboto-Thin-webfont.woff') format('woff'), url('Roboto-Thin-webfont.ttf') format('truetype'), url('Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('Roboto-Regular-webfont.woff') format('woff'), url('Roboto-Regular-webfont.ttf') format('truetype'), url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'digifaceregular';
+    src: url('digiface-webfont.eot');
+    src: url('digiface-webfont.eot?#iefix') format('embedded-opentype'), url('digiface-webfont.woff2') format('woff2'), url('digiface-webfont.woff') format('woff'), url('digiface-webfont.ttf') format('truetype'), url('digiface-webfont.svg#digifaceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    /*cursor: none;*/
+}
+
+body {
+    background: url(../images/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.navbar {
+    margin-top: 1vw;
+}
+
+.navbar-default {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff !important;
+    font-family: 'robotothin';
+    border-left: 1px solid #ffffff;
+    opacity: 0.4;
+    width: 14vw;
+    display: table;
+    text-align: center;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    opacity: 1;
+    background-color: transparent !important;
+}
+
+.container-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quiz {
+    position: relative;
+}
+
+.login-status {
+    position: relative;
+}
+
+.score-points {
+    position: relative;
+}
+
+.quiz div {
+    border-bottom: 0.1vw solid #ffffff;
+    opacity: 0.7;
+    position: relative;
+    display: table;
+    width: 100%
+}
+
+.login-status div {
+    border-bottom: 0.1vw solid #ffffff;
+    opacity: 0.7;
+    position: relative;
+    display: table;
+    width: 100%
+}
+
+.score-points div {
+    border-bottom: 0.1vw solid #ffffff;
+    opacity: 0.7;
+    position: relative;
+    display: table;
+    width: 100%
+}
+
+.quiz h1 {
+    font-family: 'robotothin';
+    color: #ffffff;
+    padding: 0.5vw;
+    font-weight: normal;
+    position: relative;
+    width: 91%;
+    display: table;
+}
+
+.login-status h1 {
+    font-family: 'robotothin';
+    color: #ffffff;
+    padding: 2vw;
+    font-weight: normal;
+    position: relative;
+    width: 91%;
+    display: table;
+}
+
+.score-points h1 {
+    font-family: 'robotothin';
+    color: #ffffff;
+    padding: 2vw;
+    font-weight: normal;
+    position: relative;
+    width: 91%;
+    display: table;
+    text-align: center;
+}
+
+.quiz ul {
+    padding: 2vw;
+    list-style: none;
+}
+
+.login-status ul {
+    padding: 2vw;
+    list-style: none;
+}
+
+.score-points ul {
+    padding: 2vw;
+    list-style: none;
+}
+
+.quiz ul li button:focus:before {
+    content: "\003E";
+    padding: 1vw;
+    margin-left: -3vw;
+}
+
+.login-status ul li:focus:before {
+    content: "\003E";
+    padding: 1vw;
+    margin-left: -3vw;
+}
+
+.quiz ul li button:focus {
+    font-family: 'robotoregular';
+}
+
+.login-status ul li:focus {
+    font-family: 'robotoregular';
+}
+
+.quiz ul li .right_answer img {
+    position: absolute;
+    right: 0px;
+}
+
+.login-status ul li .right_answer img {
+    display: none;
+    position: absolute;
+    right: 0px;
+}
+
+.quiz ul li:focus .right_answer img {
+    display: block;
+}
+
+.login-status ul li {
+    outline: none;
+}
+
+.login-status ul li:focus .right_answer img {
+    display: block;
+}
+
+.quiz ul li button {
+    font-family: 'robotothin';
+    color: #ffffff;
+    font-weight: normal;
+    outline: 0;
+}
+
+.login-status ul li {
+    font-family: 'robotothin';
+    color: #ffffff;
+    font-weight: normal;
+    outline: 0;
+}
+
+.score-points ul li {
+    font-family: 'robotothin';
+    color: #ffffff;
+    font-weight: normal;
+    outline: 0;
+}
+
+.sw {
+    width: 7%;
+    margin-top: 20px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background: url(../images/footer_bg.png) repeat;
+}
+
+.footer p {
+    font-family: 'robotothin';
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1vw;
+}
+
+@media screen and (min-width: 581px) and (max-width: 1760px) {
+
+    .counter img {
+        text-align: center;
+        width: 20vw;
+    }
+
+    .nav a {
+        line-height: 5.2vw;
+        font-size: 2.65vw;
+        margin: 1vw 0;
+    }
+
+    .abbvie_logo {
+        width: 15vw;
+        margin: 2vw;
+        margin-top: 1vw;
+    }
+
+    .navbar-brand {
+        font-size: 3.65vw;
+        color: #ffffff !important;
+        width: 10vw;
+        display: table;
+        text-align: center;
+    }
+
+    .quiz h1 {
+        line-height: 5.2vw;
+        font-size: 3.65vw;
+    }
+
+    .login-status h1 {
+        line-height: 5.2vw;
+        font-size: 3.65vw;
+    }
+
+    .score-points h1 {
+        line-height: 5.2vw;
+        font-size: 3.65vw;
+    }
+
+    .quiz ul li {
+        line-height: 2.7vw;
+        font-size: 2.00vw;
+        width: 78%;
+    }
+
+    .login-status ul li {
+        line-height: 4.0vw;
+        font-size: 2.00vw;
+        width: 78%;
+    }
+
+    .score-points ul li {
+        line-height: 4.0vw;
+        font-size: 2.00vw;
+        text-align: center;
+    }
+
+    .quiz ul li .right_answer img {
+        width: 18vw;
+        top: 15vw;
+    }
+
+    .login-status ul li .right_answer img {
+        width: 18vw;
+        top: 15vw;
+    }
+
+    .footer {
+        position: absolute;
+    }
+
+    .footer p {
+        line-height: 5.2vw;
+        font-size: 2.35vw;
+    }
+}
+
+@media screen and (min-width: 1761px) {
+    .counter img {
+        text-align: center;
+        width: 20vw;
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .counter p {
+        text-align: center;
+        font-size: 5.2vw;
+        margin-bottom: 0vw;
+    }
+
+    .nav a {
+        line-height: .9em;
+        font-size: 2.40vw;
+        margin: 2vw 0;
+    }
+
+    .abbvie_logo {
+        width: 15vw;
+        margin-right: 5vw;
+        margin-top: 2vw;
+
+    }
+
+    .navbar-brand {
+        font-size: 3.65vw;
+        color: #ffffff !important;
+        width: 10vw;
+        display: table;
+        text-align: center;
+    }
+
+    .quiz h1 {
+        line-height: .9em;
+        font-size: 3.40vw;
+        font-size: 2.15vw;
+
+    }
+
+    .login-status h1 {
+        line-height: .9em;
+        font-size: 3.40vw;
+
+    }
+
+    .score-points h1 {
+        line-height: .9em;
+        font-size: 3.40vw;
+
+    }
+
+    .quiz ul li {
+        line-height: 4.0vw;
+        font-size: 2.00vw;
+        width: 78%;
+    }
+
+    .login-status ul li {
+        line-height: 4.0vw;
+        font-size: 2.00vw;
+        width: 78%;
+    }
+
+    .score-points ul li {
+        line-height: 4.0vw;
+        font-size: 2.00vw;
+        text-align: center;
+    }
+
+    .quiz ul li .right_answer img {
+        width: 18vw;
+        top: 15vw;
+    }
+
+    .login-status ul li .right_answer img {
+        width: 18vw;
+        top: 15vw;
+    }
+
+    .footer {
+        position: absolute;
+    }
+
+    .footer p {
+        line-height: 5.2vw;
+        font-size: 1.65vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .navbar-brand {
+        font-size: 5.65vw;
+        color: #ffffff !important;
+        width: 10vw;
+        display: table;
+        text-align: center;
+    }
+
+    .abbvie_logo {
+        width: 15vw;
+        margin: 3.5vw;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        border-left: 0px solid #ffffff;
+    }
+
+    .quiz h1 {
+        line-height: .9em;
+        font-size: 1em;
+    }
+
+    .login-status h1 {
+        line-height: .9em;
+        font-size: 1em;
+    }
+
+    .score-points h1 {
+        line-height: .9em;
+        font-size: 1em;
+    }
+
+    .nav a {
+        line-height: .9em;
+        font-size: 1em;
+    }
+
+    .login-status ul li {
+        line-height: 2.3em;
+        font-size: 0.9em;
+        position: relative;
+    }
+
+    .score-points ul li {
+        line-height: 2.3em;
+        font-size: 0.9em;
+        position: relative;
+    }
+
+    .quiz ul li {
+        line-height: 2.3em;
+        font-size: 0.9em;
+        position: relative;
+    }
+
+    .quiz ul li .right_answer img {
+        width: 10vw;
+        right: -10vw;
+        top: 0px;
+    }
+
+    .login-status ul li .right_answer img {
+        width: 10vw;
+        right: -10vw;
+        top: 0px;
+    }
+
+    .counter p {
+        font-family: 'digifaceregular';
+        color: #ffffff;
+        font-size: 6.2vw !important;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        position: relative;
+
+    }
+}
+
+.border0 {
+    border: 0px solid #ffffff !important;
+}
+
+.opacity1 {
+    opacity: 1 !important;
+}
+
+.counter {
+    margin: 3vw auto;
+}
+
+.counter img {
+    text-align: center;
+}
+
+.counter p {
+    font-family: 'digifaceregular';
+    color: #ffffff;
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+.videos-icon {
+    background: url(../images/box_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5vw;
+}
+
+.videos-icon img {
+    margin: 0 auto;
+}
+
+.videos-icon p {
+    font-family: Tahoma;
+    margin: 0vw auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3.2vw;
+    text-transform: uppercase;
+}
+
+.facts-icon {
+    background: url(../images/box_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5vw;
+}
+
+.facts-icon img {
+    margin: 0 auto;
+}
+
+.facts-icon p {
+    font-family: Tahoma;
+    margin: 0vw auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3.2vw;
+    text-transform: uppercase;
+}
+
+.game-icon {
+    background: url(../images/box_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5vw;
+}
+
+.game-icon img {
+    margin: 0 auto;
+}
+
+.navbar-default .navbar-nav > li:first-child > a {
+    border: none !important;
+}
+
+.game-icon p {
+    font-family: Tahoma;
+    margin: 0vw auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3.2vw;
+    text-transform: uppercase;
+}
+
+.login-form input {
+    background: url(../images/input_bg.png) repeat;
+    border: 0px;
+    width: 100%;
+    margin: 0.5vw auto;
+    color: #ffffff;
+    padding: 1vw;
+    border-radius: 2px;
+    font-family: 'robotothin';
+    outline: none;
+    font-size: 1.5vw;
+}
+
+.registerbtn {
+    border: 0px;
+    background: none;
+    font-family: 'robotoregular';
+    outline: none;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.margin20 {
+    margin: 5vw;
+}
+
+.carousel-inner .item img {
+    margin: 0 auto;
+}
+
+.carousel-control.right {
+    background: none !important;
+}
+
+.carousel-control.left {
+    background: none !important;
+}
+
+.noneBtn {
+    border: none;
+    background: none;
+    outline: none;
+
+}
+
+.videogular-container {
+    width: 100%;
+    height: 320px;
+    margin: auto;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .videogular-container {
+        width: 100%;
+        height: 650.125px;
+    }
+
+    .videogular-container.audio {
+        width: 1170px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .videogular-container {
+        width: 940px;
+        height: 528.75px;
+    }
+
+    .videogular-container.audio {
+        width: 940px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .videogular-container {
+        width: 728px;
+        height: 409.5px;
+    }
+
+    .videogular-container.audio {
+        width: 728px;
+        height: 50px;
+    }
+}
+
+/*#################
+#   Scroll style  #
+###################*/
+#scroller {
+    padding: 14px;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+
+}
+
+#warp {
+    padding: 14px;
+    width: 100%;
+    overflow: hidden;
+    height: 645px;
+
+}
+
+#scroller ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#scroller li {
+    display: block;
+    width: 120px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+#scroller li a img {
+    cursor: pointer;
+}
+
+.help-block {
+    color: #ffffff;
+    font-size: 1vw;
+    font-family: 'robotoregular';
+}
+
+.modal-content {
+    border-radius: 0 !important;
+
+}
+
+.modal-footer button {
+    border: none !important;
+    border-radius: 0 !important;
+    height: 20% !important;
+    font-size: 1.5vw;
+    padding: 10% !important;
+
+}
+
+.modal-body {
+    font-size: 1.5vw;
+    padding: 10% !important;
+
+}
+
+.modal {
+    top: 40% !important;
+
+}
+
+.signout {
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    background: none !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.signout i {
+    font-size: 3.5vw !important;
+    color: #ffffff !important;
+}
+
+/*leader board and congratulation*/
+.leaderBoard h1 {
+    font-family: 'robotothin';
+    color: #ffffff;
+    padding: 2vw;
+    font-weight: normal;
+    position: relative;
+    line-height: .9em;
+    font-size: 3.40vw;
+    display: table;
+    background: rgba(0, 0, 0, .21);
+    width: 100%;
+}
+
+.leaderBoard ul li {
+    font-family: 'robotothin';
+    color: rgba(219, 228, 235, 0.44);
+    padding: 2vw;
+    font-weight: 600;
+    font-size: 1.40vw;
+    border-bottom: 1px solid rgba(235, 204, 204, 0.32);
+}
+
+.leaderBoard ul li:first-child {
+    color: #ffffff !important;
+}
+
+.leaderBoard ul li:first-child:before {
+    content: '>';
+    margin-right: 4px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.cong h1 {
+    font-family: 'robotothin';
+    color: #ffffff;
+    padding: 2vw;
+    font-weight: normal;
+    position: relative;
+    line-height: .9em;
+    font-size: 3.40vw;
+    display: table;
+    border-bottom: 2px solid rgba(235, 204, 204, 0.32);
+    width: 80%;
+    margin: 3% auto 2%;
+}
+
+.cong {
+    font-family: 'robotothin';
+    color: #a59da6;
+    line-height: .9em;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.cong h2 {
+    font-family: 'robotothin';
+    color: #ffffff;
+    padding: 2vw;
+    position: relative;
+    line-height: .9em;
+    font-size: 2.40vw;
+    display: table;
+    font-weight: 600;
+    margin: 3% auto 2%;
+}
+
+#videoMenu {
+    padding-right: 100px;
+
+}
+
+#videoMenu li {
+    margin-bottom: 55px;
+}
+
+#doScroll {
+    height: 600px;
+    width: 100%;
+    overflow: hidden
+}
+
+#doScroll2 {
+    height: 650px;
+    width: 350px;
+    overflow: hidden
+}
+#doScroll2 ul li {
+    margin-bottom: 10px!important;
+}
+/*.scroll{*/
+/*height: 450px; overflow-y: scroll; overflow-x:hidden;*/
+/*}*/
+/*.scroll::-webkit-scrollbar {*/
+/*width: 4px;*/
+/*}*/
+
+/*.scroll::-webkit-scrollbar-track {*/
+/*-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);*/
+/*border-radius: 10px;*/
+/*}*/
+
+/*.scroll::-webkit-scrollbar-thumb {*/
+/*background: rgba(0,0,0,0);*/
+/*border-radius: 10px;*/
+/*}*/

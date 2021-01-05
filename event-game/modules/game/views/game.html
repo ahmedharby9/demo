@@ -1,0 +1,119 @@
+<nav class="navbar navbar-default" role="navigation" ng-include="'modules/menu/views/menu.html'">
+
+</nav>
+<div class="container-fluid" ng-show="gameOver">
+
+    <div class="row">
+        <div class="container-content">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <div class="score-points">
+                    <div>
+                        <h1>Your Score/Points</h1>
+                    </div>
+                    <ul>
+                        <li tabindex="0">
+                            <p><strong>{{player}}<span class="margin20">{{printScore}}</span></strong></p>
+                        </li>
+                        <li tabindex="0">
+                            <p>{{FromDate}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" ng-show="!gameOver">
+
+    <div class="row">
+        <div class="container-content">
+            <button class="btn-lg btn-default signout" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out"></i> </button>
+
+            <div class="quiz">
+
+                <div>
+                    <h1 class="pull-left" ng-bind-html="'Q'+QNum+'.'+randomQuote.Q | unsafe">Q</h1><img class="img-responsive pull-right sw" src="asset/images/sw.png"></div>
+                <ul id="answers">
+                    <li tabindex="0" ng-repeat="Answer in randomQuote.A">
+                        <button ng-click="answerChoose(Answer.R)" class="noneBtn text-left" ng-disabled="IAnswer">
+                            {{Answer.A}}
+                        </button>
+                        <span class="right_answer" ng-show="checkAnswerW">
+                        <img class="img-responsive pull-right" src="./asset/images/wrong_answer.png">
+                        </span>
+                        <span class="right_answer" ng-show="checkAnswer">
+                        <img class="img-responsive pull-right" src="./asset/images/right_answer.png">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer" ng-show="!gameOver">
+    <div class="container-fluid">
+        <p ng-click="answer()" ng-show="!IAnswer">Answer</p>
+        <p ng-click="nextQ()" ng-show="IAnswer">Next</p>
+    </div>
+</footer>
+
+<footer class="footer" ng-show="gameOver">
+    <div class="container-fluid">
+        <a href="#/leaderBoard">
+            <p>Leader Board</p>
+        </a>
+
+    </div>
+</footer>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade " role="dialog" data-backdrop="static">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content ">
+
+            <div class="modal-body text-center">
+                <p>Are you sure you want to logout the game and go to home ?</p>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-lg-6" style="border-right: 1px solid #e5e5e5"> <button type="button" class="btn btn-default btn-block" data-dismiss="modal">Cancel</button></div>
+                    <div class="col-lg-6"> <button type="button" class="btn btn-default btn-block" id="repeatSlide" ng-click="logOut=true" data-dismiss="modal">Ok</button></div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--<div class="container" style=" margin-top:100px;">-->
+<!--<div class="row">-->
+<!--<div class="col-md-6">-->
+<!--<ol>-->
+<!--<li>-->
+<!--<span ng-bind-html="randomQuote.Q | unsafe"></span>-->
+<!--<ul>-->
+<!--<li ng-repeat="Answer in randomQuote.A" ng-class="{'text-danger':Answer.R==true}">-->
+<!--<button ng-click="answerChoose(Answer.R)" ng-disabled="IAnswer">{{Answer.A}}</button>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--</ol>-->
+<!--</div>-->
+<!--<div class="col-md-4 col-md-offset-4 bg-success">-->
+
+<!--<button ng-click="answer()">click her</button>-->
+<!--<button ng-click="nextQ()">next</button>-->
+
+<!--<h1 class="text-center" style="padding:50px;">DONE</h1>-->
+<!--<a class="btn btn-lg btn-primary btn-block" href="#/login">Logout</a>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
