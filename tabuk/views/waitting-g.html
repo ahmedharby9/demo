@@ -1,0 +1,113 @@
+<section ng-controller="QuizCtrl">
+    <div class="row quiz text-center" id="Quiz_1" ng-show="$root.quiz == 1">
+        <div class="col-md-6 col-sm-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./images/Tabuvan 2 Heart2.png" class="logo-img" alt="">
+                    <h3><label>Let's Start</label> Quetionnaire</h3>
+                </div>
+            </div>
+            <div class="row min-height" ng-repeat="p in Qusetions_Q1">
+                <div class="col-md-12">
+                    <!--ng-bind-html=-->
+                    <div ng-repeat="q in p['page'+currentPage]">
+                        <p class="question" ng-bind-html="q.Q"></p>
+                        <div class="form-group text-left" ng-repeat="A in q.AWS">
+                            <input type="radio" name="ans+{{$parent.$index}}" id="ans+{{$parent.$index}}-Q+{{$index}}" class="radio-inline" ng-value="A.value" />
+                            <label for="ans+{{$parent.$index}}-Q+{{$index}}" ng-style="A.type?{'color':'red'}:''">{{A.value}}</label>
+                            <input type="hidden" ng-value="A.type" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="circt bg-gray" ng-class="currentPage==1?'bg-red':''"></span>
+                    <span class="circt bg-gray" ng-class="currentPage==2?'bg-red':''"></span>
+                    <span class="circt bg-gray" ng-class="currentPage==3?'bg-red':''"></span>
+                    <span class="circt bg-gray" ng-class="currentPage==4?'bg-red':''"></span>
+                    <span class="glyphicon glyphicon-menu-right" ng-click="nextPage()"></span>
+                    <div class="text-right">
+                        <small>{{currentPage}}</small> / <small>4</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 hidden-xs">
+            <img src="./images/006.jpg" class="banner-quiz img-responsive" alt="" />
+        </div>
+    </div>
+    <!-- ********* Quiz 2 *********** -->
+    <div class="row quiz text-center" id="Quiz_2" ng-show="$root.quiz == 2">
+        <div class="col-md-6 col-sm-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./images/logo (2).png" class="logo-img" alt="">
+                    <h3><label>Let's Start</label> Quetionnaire</h3>
+                </div>
+            </div>
+            <div class="row min-height" ng-repeat="p in Qusetions_Q2">
+                <div class="col-md-12">
+                    <!--ng-bind-html=-->
+                    <div ng-repeat="q in p['page1']">
+                        <p class="question" ng-bind-html="q.Q"></p>
+                        <div class="form-group text-left" ng-repeat="A in q.AWS">
+                            <input type="radio" name="ans+{{$parent.$index}}" id="ans+{{$parent.$index}}-Q+{{$index}}" class="radio-inline" ng-value="A.value" />
+                            <label for="ans+{{$parent.$index}}-Q+{{$index}}" ng-style="A.type?{'color':'red'}:''">{{A.value}}</label>
+                            <input type="hidden" ng-value="A.type" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="circt bg-gray bg-red"></span>
+                    <span class="glyphicon glyphicon-menu-right" ng-click="nextPage_S2()"></span>
+                    <div class="text-right">
+                        <small>1</small> / <small>1</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 hidden-xs">
+            <img src="./images/012.jpg" class="banner-quiz img-responsive" alt="" />
+        </div>
+    </div>
+    <!-- ********* Quiz 3 *********** -->
+    <div class="row quiz text-center" id="Quiz_3" ng-show="$root.quiz == 3">
+        <div class="col-md-6 col-sm-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./images/Lotevan 2.png" class="logo-img" alt="">
+                    <h3><label>Let's Start</label> Quetionnaire</h3>
+                </div>
+            </div>
+            <div class="row min-height" ng-repeat="p in Qusetions_Q3">
+                <div class="col-md-12">
+                    <!--ng-bind-html=-->
+                    <div ng-repeat="q in p['page'+currentPage_S3]">
+                        <p class="question" ng-bind-html="q.Q"></p>
+                        <div class="form-group text-left" ng-repeat="A in q.AWS">
+                            <input type="radio" name="ans+{{$parent.$index}}" id="ans+{{$parent.$index}}-Q+{{$index}}" class="radio-inline" ng-value="A.value" />
+                            <label for="ans+{{$parent.$index}}-Q+{{$index}}" ng-style="A.type?{'color':'red'}:''">{{A.value}}</label>
+                            <input type="hidden" ng-value="A.type" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="circt bg-gray" ng-class="currentPage_S3==1?'bg-red':''"></span>
+                    <span class="circt bg-gray" ng-class="currentPage_S3==2?'bg-red':''"></span>
+                    <span class="glyphicon glyphicon-menu-right" ng-click="nextPage_S3()"></span>
+                    <div class="text-right">
+                        <small>{{currentPage_S3}}</small> / <small>2</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 hidden-xs">
+            <img src="./images/015.jpg" class="banner-quiz img-responsive" alt="" />
+        </div>
+    </div>
+</section>

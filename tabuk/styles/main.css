@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('MyriadPro-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-BoldIt';
+    src: url('MyriadPro-BoldIt.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('MyriadPro-Regular.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Light';
+    src: url('MyriadPro-Light.otf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body,
+label,
+button,
+a,
+h1,
+h2,
+h3 {
+    font-family: 'MyriadPro-Regular', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.vw-40 {
+    width: 39.5vw;
+}
+
+.bg-gray-43 {
+    background: rgba(243, 243, 243, 1);
+}
+
+.container {
+    width: 1024px!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.form-login {
+    width: 300px!important;
+    border-radius: 0!important;
+    background: rgba(231, 220, 220, 1);
+    margin: 0 auto
+}
+
+.vw-22 {
+    width: 27.7vw;
+    height: 100vh;
+}
+
+.m-t-45 {
+    margin: 45vh auto 0 auto;
+}
+
+.btn-login {
+    margin-top: 14px;
+    margin-left: 196px;
+    padding: 10px 33px!important;
+    background: rgb(172, 5, 10);
+    border: none;
+}
+
+
+/* **** Main Page ***** */
+
+.header,
+.footer {
+    background: rgb(172, 5, 10);
+    height: 56px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.m-t-10vh {
+    margin-top: 16.3vh!important
+}
+
+.m-b-10vh {
+    margin-bottom: 16.3vh!important
+}
+
+.logo {
+    width: 91px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.banner {
+    width: 1024px;
+}
+
+.img-chart {
+    width: 168px;
+    height: auto;
+    margin-top: 44px;
+}
+
+.img-chart-r {
+    margin-left: -21px;
+}
+
+.footer p {
+    color: rgba(243, 243, 243, 1);
+    font-size: 11pt;
+    margin-top: 20px;
+    float: right;
+    margin-right: 8px;
+}
+
+
+/* ****** waitting page ******* */
+
+.img-waitting {
+    width: 1024px;
+    height: auto;
+}
+
+.mask_1 {
+    width: 83px;
+    height: 110px;
+    background: transparent;
+    position: absolute;
+    left: 312px;
+    top: 104px;
+}
+
+.mask_1 .ball {
+    width: 27px;
+    height: 20px;
+    margin: 1px 0 23px 0px;
+    float: left;
+    background: #141213;
+    border-radius: 10px 8px;
+    opacity: 1;
+}
+
+.mask_2 {
+    width: 83px;
+    height: 110px;
+    background: transparent;
+    position: absolute;
+    left: 317px;
+    top: 103px;
+}
+
+.mask_2 .ball {
+    width: 27px;
+    height: 20px;
+    margin: 1px 0 23px 0px;
+    float: left;
+    background: #141213;
+    border-radius: 10px 8px;
+    opacity: 1;
+}
+
+.mask_3 {
+    width: 83px;
+    height: 110px;
+    background: transparent;
+    position: absolute;
+    left: 318px;
+    top: 103px;
+}
+
+.mask_3 .ball {
+    width: 27px;
+    height: 20px;
+    margin: 1px 0 23px 0px;
+    float: left;
+    background: #1b191a;
+    border-radius: 10px 8px;
+    opacity: 1;
+}
+
+.mask_1 .ball.active,
+.mask_2 .ball.active,
+.mask_3 .ball.active {
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    opacity: 0;
+}
+
+
+/* ./waitting page  */
+
+
+/* ****** Thanks page ******* */
+
+#Tabuvan {
+    background: url(../images/010-03.jpg);
+    padding: 40px 100px;
+}
+
+#Co-tabuvan {
+    background: url(../images/013-04.jpg);
+    padding: 40px 100px;
+}
+
+#Lotevan {
+    background: url(../images/017-03.jpg);
+    padding: 40px 100px;
+}
+
+#Tabuvan>.logo_img {
+    width: 291px;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#Co-tabuvan>.logo_img {
+    width: 291px;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#Lotevan>.logo_img {
+    width: 291px;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.true_img {
+    width: 166px;
+    height: 166px;
+    display: block;
+    margin: 0 60px;
+}
+
+#Tabuvan>label,
+#Co-tabuvan>label,
+#Lotevan>label {
+    margin: 19px 67px;
+    font-family: 'MyriadPro-Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(243, 243, 243, 1);
+    font-size: 24pt;
+    font-weight: lighter;
+}
+
+#Tabuvan>button,
+#Co-tabuvan>button,
+#Lotevan>button {
+    color: rgba(243, 243, 243, 1);
+    font-family: 'MyriadPro-Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12.5pt;
+    display: block;
+    margin: 48px 0px 105px 70px;
+    background: rgb(172, 5, 10);
+    border: none;
+}
+
+
+/* ./thanks */
+
+
+/* ***** Quiz page ***** */
+
+#Quiz_1 .logo-img {
+    margin-top: 10px;
+}
+
+.quiz>h3 {
+    font-size: 20pt;
+}
+
+.quiz>h3>label {
+    font-family: 'MyriadPro-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.question>label,
+.question>span {
+    color: #0075e2;
+}
+
+.question>label {
+    font-family: 'MyriadPro-BoldIt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18pt;
+}
+
+.question {
+    font-size: 17px;
+    margin-top: 20px;
+    width: 440px
+}
+
+input[type=checkbox]:not(old),
+input[type=radio]:not(old) {
+    width: 28px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+input[type=checkbox]:not(old)+label,
+input[type=radio]:not(old)+label {
+    display: inline-block;
+    margin-left: -28px;
+    padding-left: 28px;
+    background: url('../images/checks.png') no-repeat 0 0;
+    line-height: 24px;
+}
+
+input[type=checkbox]:not(old):checked+label {
+    background-position: 0 -24px;
+}
+
+input[type=radio]:not(old):checked+label {
+    background-position: 0 -48px;
+}
+
+.circt {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.circt.bg-red {
+    background: rgb(172, 5, 10)!important;
+}
+
+.glyphicon-menu-left {
+    margin-right: 8px;
+}
+
+.glyphicon {
+    color: rgb(180, 180, 180);
+    font-size: 15pt;
+    top: 5px;
+}
+
+.glyphicon.active {
+    color: #333;
+}
+
+.circt.bg-gray {
+    background: rgb(180, 180, 180);
+}
+
+.min-height {
+    min-height: 440px!important;
+}
+
+
+/* ***** AdminMain ***** */
+
+.qr-list li {
+    float: left;
+    text-align: center;
+}
+
+.qr-list li .img-thumbnail {
+    display: block;
+}
+
+.divider {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
