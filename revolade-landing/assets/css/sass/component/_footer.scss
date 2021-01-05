@@ -1,0 +1,36 @@
+.footer {
+    background:#492F91;
+    padding: 50px 20px 20px;
+    float: $left;
+    width: 100%;
+
+    .foot {
+     float: $left;
+     width: 100%;
+     margin-bottom: 10px;
+     a {
+         color: #fff;
+     }
+     h3 {
+         color: #fff;
+         text-transform: capitalize;
+         font-size: $mainFont + 3;
+         padding-bottom: 20px;
+         @media #{$maxScreen} {
+            padding-bottom: 0px;
+          }
+
+     }
+     p {
+         color: #fff;
+         margin-bottom: 5px;
+         text-transform: capitalize;
+     }
+     ul {
+         li {
+             color: #fff;
+             text-transform: capitalize;
+         }
+     }
+    }
+}

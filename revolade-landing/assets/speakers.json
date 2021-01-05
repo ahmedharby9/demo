@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Drew Provan",
+    "title": "International Speaker",
+    "about": "Senior Lecturer in Haematology at Barts and The London School of Medicine and Dentistry.",
+    "imagePath": "speakers/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Ihab El-HEMAIDI",
+    "title": "local Speaker",
+    "about": "Dr IHAB YAHIA MOHAMED HASSAN El-HEMAIDI. MRCP (UK), FRCPath Fellow of the Royal Society of Medicine Consultant Adult Haematologist/BMT Joint appointment Assistant Professor of Internal Medicine/ Haematology/ Oncology in King Saud bin Abdel Aziz University for health sciences. Deputy chair of the Oncology Department Quality Committee Member of the Haematology Fellowship examination board of the Saudi commission for health specialities",
+    "imagePath": "speakers/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ahmad Alsaeed",
+    "title": "Chairman",
+    "about": "Section Head, Adult Hematology/BMT in Princess Noorah Oncology Center, King Abdulaziz Medical City, King Khalid National Guard Hospital, Jeddah, saudi Arabia ",
+    "imagePath": "speakers/3.png"
+  }
+]

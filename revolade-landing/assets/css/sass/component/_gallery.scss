@@ -1,0 +1,30 @@
+.box-gallery {
+    width: 300px;
+    margin: 142px auto;
+    @media #{$mobieScreen} {
+        margin: 0 auto;
+    }
+
+}
+.gallery {
+    img {
+        width: 100%;
+        height: 600px;
+    }
+}
+.inn .slick-dots {
+    display: none !important;
+}
+
+.galler-in {
+    height: 100px;
+    margin-bottom: 20px;
+    @media #{$smallScreen} {
+        height:100%;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
