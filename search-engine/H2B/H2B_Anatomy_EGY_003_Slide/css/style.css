@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+*
+{
+                -webkit-tap-highlight-color:rgba(255,0,0,0);
+                -webkit-touch-callout: none;
+}
+
+
+html, body, p, ul, li, h1, h2, h3, h4, h5, h6, input, table, tr, td, th, em, strong, pre, code, form, img
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a
+{
+	text-decoration:none;
+	outline:none;
+	cursor:pointer;
+}
+
+ol, ul
+{
+list-style: none;
+}
+
+#Main_Container{
+                width:1024px;
+                height:768px;
+                overflow: hidden;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                background-image:url(../images/H2B_Anatomy_EGY_003_Slide.jpg);
+                background-repeat:no-repeat;
+}
+
+#L1{
+	position:absolute;
+	left:432px;
+	top:237px;
+	max-width:100px;
+	height:163px;
+	background-image:url(../images/L1.png);
+	background-repeat:no-repeat;
+	opacity:1;
+	}
+#t1{ position:absolute; left:539px; top:236px; opacity:0;}
+
+#t2{ position:absolute; left:445px; top:317px; opacity:0;}
+
+#t3{ position:absolute; left:470px; top:385px; opacity:0;}
+
+#t4{ position:absolute; left:494px; top:434px; opacity:0;}
+
+#t5{ position:absolute; left:505px; top:483px; opacity:0;}
+
+#t6{ position:absolute; left:492px; top:550px; opacity:0;}

@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+*
+{
+                -webkit-tap-highlight-color:rgba(255,0,0,0);
+                -webkit-touch-callout: none;
+}
+
+
+html, body, p, ul, li, h1, h2, h3, h4, h5, h6, input, table, tr, td, th, em, strong, pre, code, form, img
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a
+{
+	text-decoration:none;
+	outline:none;
+	cursor:pointer;
+}
+
+ol, ul
+{
+list-style: none;
+}
+
+#Main_Container{
+                width:1024px;
+                height:768px;
+                overflow: hidden;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                background-image:url(../images/H2B_Anatomy_EGY_011_Slide.jpg);
+                background-repeat:no-repeat;
+}
+/*#btn1{
+	position: absolute;
+	left: 88px;
+	top: 286px;
+	width: 443px;
+	height: 40px;
+
+	}*/
+/*#btn2{
+	position: absolute;
+	left: 92px;
+	top: 342px;
+	width: 385px;
+	height: 43px;
+	opacity:0;
+	
+	}
+#btn3{
+	position: absolute;
+	left: 68px;
+	top: 418px;
+	width: 388px;
+	height: 46px;
+	opacity:0;
+	
+	}
+#btn4{
+	position: absolute;
+	left: 555px;
+	top: 316px;
+	width: 382px;
+	height: 30px;
+	opacity:0;
+	}
+#btn5{
+	position: absolute;
+	left: 596px;
+	top: 433px;
+	width: 341px;
+	height: 40px;
+	opacity:0;
+	}
+#btn6{
+	position: absolute;
+	left: 613px;
+	top: 506px;
+	width: 296px;
+	height: 47px;
+	opacity:0;
+	}*/
+#t1{
+	position:absolute;
+	left:91px;
+	top:297px;
+	opacity:1;
+	}
+#t2{
+	position:absolute;
+	left:92px;
+	top:351px;
+	opacity:1;
+	}
+#t3{
+	position:absolute;
+	left:90px;
+	top:435px;
+	opacity:1;
+	}
+#t4{
+	position:absolute;
+	left:564px;
+	top:324px;
+	opacity:1;
+	}
+#t5{
+	position: absolute;
+	left: 600px;
+	top: 442px;
+	opacity:1;
+	}
+#t6{
+	position:absolute;
+	left:613px;
+	top:521px;
+	opacity:1;
+	}
+
+
+#myLINK1{
+	position: absolute;
+	left: 90px;
+	top: 424px;
+	display: none;
+	width: 359px;
+	height: 41px;
+	z-index:100;
+	}
+
+
+/*#btn1_close{
+	position: absolute;
+	left: 88px;
+	top: 286px;
+	width: 443px;
+	height: 40px;
+	display:none;
+
+	}
+	
+
+#btn2_close{
+	position: absolute;
+	left: 92px;
+	top: 342px;
+	width: 385px;
+	height: 43px;
+	display:none;
+	
+	}
+#btn3_close{
+	position: absolute;
+	left: 68px;
+	top: 418px;
+	width: 388px;
+	height: 46px;
+	display:none;
+	
+	}
+#btn4_close{
+	position: absolute;
+	left: 555px;
+	top: 316px;
+	width: 382px;
+	height: 30px;
+	display:none;
+	
+	}
+#btn5_close{
+	position: absolute;
+	left: 596px;
+	top: 433px;
+	width: 341px;
+	height: 40px;
+	display:none;
+	
+	}
+#btn6_close{
+	position: absolute;
+	left: 613px;
+	top: 506px;
+	width: 296px;
+	height: 47px;
+	display:none;
+	
+	}
+	*/
+	
+
+#all{
+	position: absolute;
+	left: 61px;
+	top: 192px;
+	width: 889px;
+	height: 493px;
+	display: block;
+	z-index:90;
+
+	}
+	
+	
+
+#all_close{
+	position: absolute;
+	left: 61px;
+	top: 192px;
+	width: 889px;
+	height: 493px;
+	display: none;
+
+	}
+	
+
+#img1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width: 1024px;
+	height: 768px;
+	opacity:0;
+
+}

@@ -1,0 +1,179 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<title>H2B_Anatomy_EGY_011_Slide</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden">
+<meta name="viewport" content="width=1024">
+<meta name="viewport" content="initial-scale = 1.0, user-scalable = yes, maximum-scale = 2.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/animate.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/insert.js"></script>
+<script type="text/javascript" src="js/NativeBridge.js"></script>
+<script type="text/javascript" id="OnAnimat-js"></script>
+	<script type="text/javascript" id="customs-js">
+		$(document).ready(function () {
+		
+		
+		
+				$("#all").bind('mousedown', function(e) {
+					$("#img1").insert('fadeIn','0','1');
+					$("#img1").removeClass('fadeOut');
+					
+				$("#all_close").css({'display':'block'});
+				$("#all").css({'display':'none'});
+				$("#myLINK1").css({'display':'block'});
+	
+					});
+		
+		
+			$("#all_close").bind('mousedown', function(e) {
+				
+					$("#img1").insert('fadeOut','0','1');
+					$("#img1").removeClass('fadeIn');
+					
+					$("#all").css({'display':'block'});
+					$("#all_close").css({'display':'none'});
+					$("#myLINK1").css({'display':'none'});
+					
+
+								});
+		
+		
+		
+		
+		//	
+//			$("#btn1").bind('mousedown', function(e) {
+//				$("#t1").insert('fadeIn ','0','0.5');
+//				
+//				$("#btn1_close").css({'display':'block'});
+//				
+//				
+//			
+//		$("#btn1_close").bind('mousedown', function(e) {
+//				$("#t1").removeClass('fadeIn');
+//				$("#btn1_close").css({'display':'none'});
+//
+//			});
+//				  
+//			});
+//
+//			$("#btn2").bind('mousedown', function(e) {
+//				$("#t2").insert('fadeIn ','0','0.5'); 
+//				$("#btn2_close").css({'display':'block'});
+//			
+//	$("#btn2_close").bind('mousedown', function(e) {
+//				$("#t2").removeClass('fadeIn');
+//				$("#btn2_close").css({'display':'none'});
+//
+//			});
+//				
+//			});
+//			
+//			
+//			
+//			$("#btn3").bind('mousedown', function(e) {
+//				$("#t3").insert('fadeIn ','0','0.5'); 
+//				$("#btn3_close").css({'display':'block'});
+//				
+//		$("#btn3_close").bind('mousedown', function(e) {
+//				$("#t3").removeClass('fadeIn');
+//				$("#btn3_close").css({'display':'none'});
+//	
+//			});
+//				
+//			});
+//			
+//			
+//			$("#btn4").bind('mousedown', function(e) {
+//				$("#t4").insert('fadeIn ','0','0.5');
+//				$("#btn4_close").css({'display':'block'});
+//				
+//		$("#btn4").bind('mousedown', function(e) {
+//				$("#t4").removeClass('fadeIn');
+//				$("#btn4_close").css({'display':'none'});
+//
+//				  
+//			});			
+//				 
+//			});
+//			$("#btn5").bind('mousedown', function(e) {
+//				$("#t5").insert('fadeIn ','0','0.5');
+//				$("#btn5_close").css({'display':'block'}); 
+//				
+//			$("#btn5_close").bind('mousedown', function(e) {
+//				$("#t5").removeClass('fadeIn');
+//				$("#btn5_close").css({'display':'none'});
+//
+//				  
+//			});
+//				
+//			});
+//			$("#btn6").bind('mousedown', function(e) {
+//				$("#t6").insert('fadeIn ','0','0.5');
+//				$("#btn6_close").css({'display':'block'});
+//				 
+//			$("#btn6_close").bind('mousedown', function(e) {
+//				$("#t6").removeClass('fadeIn');
+//				$("#btn6_close").css({'display':'none'});
+//
+//			});
+//				
+//			});
+//			
+			
+			$('#myLINK1').bind('mousedown',function(e)
+			{
+				//alert('sdsd');
+				NativeBridge.call("gotoSlide", ['H2B_Anatomy_EGY_013_Slide.html']);
+			});
+		});
+    </script>
+</head>
+<body>
+<div id="Main_Container">
+
+
+
+   <div id="img1">  
+	<img src="images/t1.png" border="0" alt="" id="t1" />
+	<img src="images/t2.png" border="0" alt="" id="t2" />
+	<img src="images/t3.png" border="0" alt="" id="t3" />
+  	<img src="images/t4.png" border="0" alt="" id="t4" />
+	<img src="images/t5.png" border="0" alt="" id="t5" />
+	<img src="images/t6.png" border="0" alt="" id="t6" />
+</div>
+
+<div id="all"></div>
+<div id="all_close"></div>
+
+ 
+ 
+
+  <div id="myLINK1"></div>
+ 
+ 
+<!--
+<div id="btn1"></div>
+       	<div id="btn2"></div>
+        <div id="btn3"></div>
+        <div id="btn4"></div>
+        <div id="btn5"></div>
+        <div id="btn6"></div>-->
+    
+    
+  <!--<div id="btn1_close"></div>
+  <div id="btn2_close"></div>
+  <div id="btn3_close"></div>
+  <div id="btn4_close"></div>
+  <div id="btn5_close"></div>
+  <div id="btn6_close"></div>-->
+
+</div>
+</body>
+</html>
